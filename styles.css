@@ -1,0 +1,52 @@
+/*
+====================
+Global CSS
+====================
+*/
+ul {
+  color: aqua;
+  text-decoration: none;
+  line-height: 1.5rem;
+}
+.nav {
+  display: inline-flex;
+}
+.search-box {
+  margin: 0 2rem 0 0.5rem;
+}
+.login {
+  margin: 0 1rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  align-content: stretch;
+}
+.left {
+  border: 1px solid red;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-rows: 250px 500px 500px;
+}
+.left-login {
+  background: palevioletred;
+}
+.left-menu {
+  background: peru;
+}
+.left-tags {
+  background: purple;
+  overflow: scroll;
+}
+.mid {
+  border: 1px solid red;
+  /* height: 100vh; */
+}
+.right {
+  border: 1px solid red;
+  /* height: 100vh; */
+}
+.secondary-nav ul {
+  text-decoration: none;
+}
